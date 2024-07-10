@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Login user/admin</title>
+  </head>
+  <style>
+    .login {
+      height: 100vh;
+    }
+    .box-login {
+      box-shadow: 10px 10px 5px #aaaaaa;
+      width: 350px;
+      height: 350px;
+      box-sizing: border-box;
+    }
+    .login {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("pexels-wildlittlethingsphoto-887723.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .input-control {
+      height: 30px;
+    }
+  </style>
+  <body>
+    <div class="login d-flex justify-content-center align-items-center">
+      <div class="box-login p-5 shadow rounded-2">
+        <h2 class="text-center pt-0 text-white">
+          Welcome <br />lunar coffeeshop
+        </h2>
+        <form action="dahsboard.html" method="post">
+          <div>
+            <input
+              type="text"
+              name="user"
+              placeholder="Username"
+              class="input-control m-2 w-100 h-50"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              class="input-control m-2 w-100"
+            />
+          </div>
+          <div class="text-center">
+            <a href="dahsboard.html">
+              <button class="btn btn-primary">Login</button>
+            </a>
+          </div>
+          <div class="pt-2 text-center">
+            <p class="text-white">
+              belum memiliki akun? daftar <span> <a href="">disini</a></span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../bootstrap5/js/bootstrap.min.js"></script>
+  </body>
+</html>
